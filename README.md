@@ -1,5 +1,5 @@
-# FinalProject
-Gianna Freking and Regan Hansen
+Final Project
+
 # Project Title and purpose
 
 One Paragraph of project description goes here
@@ -37,7 +37,8 @@ This is the code that moves down the tree as decisions are made. It gets each va
 
 ## Authors
 
-* **Billie Thompson** 
+* **Gianna Freking** 
+* **Regan Hansen** 
 
 ## Acknowledgments
 
