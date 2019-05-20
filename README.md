@@ -45,3 +45,6 @@ This is the code that moves down the tree as decisions are made. It gets each va
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+
+The name of our project is Battleship. We intend for users to be able to play against the computer. We will need to create a grid and randomize the locations of the "battleships". We will make the color of the battleships the same as the color of the board so that they are "invisible". Then, if it is "hit", we will use if- statements to show that the ship was "hit".
