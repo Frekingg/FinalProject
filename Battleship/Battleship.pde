@@ -1,5 +1,6 @@
 
 BattleShip battleship1;
+
 BattleShip battleship2;
 BattleShip battleship3;
 Grid grid;
