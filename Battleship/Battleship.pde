@@ -1,8 +1,5 @@
 
-BattleShip battleship1;
-
-BattleShip battleship2;
-BattleShip battleship3;
+BattleShip battleship;
 Grid grid;
 //Snowman snowman;
 //Text text;
@@ -17,9 +14,8 @@ void setup(){
   
   
   grid = new Grid();
- battleship1= new BattleShip ();
-battleship2= new BattleShip ();
-battleship3= new BattleShip ();
+ battleship= new BattleShip ();
+
   // snowman = new Snowman();
   // text = new Text();
 }
@@ -29,7 +25,7 @@ void draw(){
    //tree.treeDisplay();
  // snowman.snowmanDisplay();
   grid.gridDisplay();
-  battleship1.shipsDisplay();
+  battleship.shipsDisplay();
   //snowFlake.display();
   
   
