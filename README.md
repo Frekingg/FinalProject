@@ -5,7 +5,7 @@ Battleship is a game in which the computer will randomize the locations of diffe
 
 ### Difficulties or opportunities you encountered along the way.
 
-The toughest part was...
+The toughest part of our project was definitely trying to figure out how to randomize the location of the ships and use a boolean to figure out whether or not if the Ship objects were in the same location as where the user has clicked, which would, in turn, change the color of the rectangle.
 
 ### Most interesting piece of your code and explanation for what it does.
 
