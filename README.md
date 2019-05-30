@@ -41,9 +41,8 @@ This is the code that moves down the tree as decisions are made. It gets each va
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thank you to Mr. Fendrich for helping us problem solve and to Sydney Essler for help with coding ideas.
+
 
 
 
