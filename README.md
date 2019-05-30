@@ -1,7 +1,6 @@
 Final Project
 
-# Battleship - provide entertainment for users
-
+# Battleship - A Friendly Game for Users
 Battleship is a game in which the computer will randomize the locations of different ships and the goal of the user is to "guess", by clicking, where the ships are.
 
 ### Difficulties or opportunities you encountered along the way.
