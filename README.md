@@ -1,6 +1,6 @@
 Final Project
 
-# Battleship and its purpose is to provide entertainment for users
+# Battleship - provide entertainment for users
 
 Battleship is a game in which the computer will randomize the locations of different ships and the goal of the user is to "guess", by clicking, where the ships are.
 
