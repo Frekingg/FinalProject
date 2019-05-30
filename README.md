@@ -1,8 +1,8 @@
 Final Project
 
-# Project Title and purpose
+# Battleship and its purpose is to provide entertainment for users
 
-One Paragraph of project description goes here
+Battleship is a game in which the computer will randomize the locations of different ships and the goal of the user is to "guess", by clicking, where the ships are.
 
 ### Difficulties or opportunities you encountered along the way.
 
