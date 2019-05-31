@@ -8,6 +8,7 @@ public class Grid{
     lineDisplay();
     letterDisplay();
     numDisplay();
+
   }
   
   public void boxDisplay(){
@@ -22,6 +23,12 @@ public class Grid{
     stroke(0);
     strokeWeight(5);
     rect( 120, 50, 600, 600);
+     fill(255);
+     stroke(1);
+     for (int i=180; i<750; i+=120)
+     for (int j=110; j<650; j+=120){
+       ellipse(i, j, 15, 15);
+     }
   }
   
    public void lineDisplay(){
@@ -58,5 +65,4 @@ public class Grid{
     text("4", 80, 480);
     text("5", 80, 600);
    }
-   
 }
