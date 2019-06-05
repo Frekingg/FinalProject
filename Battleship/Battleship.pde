@@ -1,16 +1,17 @@
-
 //BattleShip battleship;
 Grid grid;
 ShipLocations loc;
+//ShipLocations shiploc;
 //Text text;
 //remember to put back in ship locations if it doesnt work
-boolean[][] shiploc;
+//boolean[][] shiploc;
 
 void setup(){
   size(1050, 700);
   
   loc = new ShipLocations();
   grid = new Grid();
+  //shiploc = new ShipLocations();
  //battleship= new BattleShip ();
 
 }
@@ -18,24 +19,56 @@ void setup(){
 void draw(){
   background(30, 68, 120);
   grid.gridDisplay();
-  //battleship.shipsDisplay();
-  if(mousePressed == true)
-    while(mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
-  
+  if(mousePressed == true){
+    if(mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
+    System.out.println("Hit");
+    else if(mouseX>240 && mouseX<360 && mouseY>50&&mouseY<170)
+      System.out.println("Miss");
+   
     
-  {
-    changeColor();
   }
+  //battleship.shipsDisplay();
+  
+  //if(mousePressed == true)
+  //  while(mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
+  //  {
+  //  fill(216, 41, 41);
+  //  rect(120,50,120,120);
+  //  }
+  //else if(mousePressed == true)
+  //  while(mouseX>240 && mouseX<360 && mouseY>50&&mouseY<170)
+  //  {
+  //  fill(216, 41, 41);
+  //  rect(240,50,120,120);
+  //  }
   
   }
   public void mousePressed()
    {
+     //int x = 0;
+     //int y = 0;
      if(mousePressed==true){
        
-       if (mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
-             if(shiploc[0][0]==true)
-           changeColor();
-        
+       if (mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170){
+            if(shiploc[4][3]==true)
+             //if(loc.getShipBoo(x,y))
+             System.out.println("Hit");
+       if (mouseX>480 && mouseX<600 && mouseY>530&&mouseY<650){
+            if(shiploc[4][3]==true)
+             //if(loc.getShipBoo(x,y))
+             System.out.println("Hit");
+             //if(getShipLoc())
+         //fill(216, 41, 41);
+         // rect(120,50,120,120);
+         
+       }
+     //  else if (mouseX>240 && mouseX<360 && mouseY>50&&mouseY<170){
+     //        //if(shiploc[0][0]==true)
+     //      //changeColor();
+     //      fill(216, 41, 41);
+     //      rect(240,50,120,120);
+     //  }
+     //}
            
            
  //public void isHit(){
@@ -145,5 +178,5 @@ void draw(){
  // }
  //    } 
    }
-   }
- 
+}
+ }

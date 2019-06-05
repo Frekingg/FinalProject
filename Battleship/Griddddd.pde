@@ -16,8 +16,8 @@ public class Grid{
     strokeWeight(1);
     fill(150);
     rect(850, 0, 200, 700);
-     fill(0);
-     textSize(30);
+    fill(0);
+    textSize(30);
     text("BATTLESHIP", 865, 60);
     noFill();
     stroke(0);
@@ -28,6 +28,7 @@ public class Grid{
      for (int i=180; i<750; i+=120)
      for (int j=110; j<650; j+=120){
        ellipse(i, j, 15, 15);
+      
      }
   }
   

@@ -1,6 +1,7 @@
+boolean[][] shiploc;
 public class ShipLocations{
 
-
+//boolean[][] shiploc;
 //private int mouseX, mouseY;
   
  public ShipLocations()
@@ -12,6 +13,8 @@ public class ShipLocations{
   
  public void setshiploc()
  {
+   
+   //comment
     //ArrayList <Integer> locs= new ArrayList <Integer>();
     //for (int i=0; i<25; i++){
     //locs.add(i);
@@ -26,11 +29,20 @@ public class ShipLocations{
     //shiploc[(l1/5)-1][(l1-1)%5]= true;
     //shiploc[(l2/5)-1][(l2-1)%5]= true;
     //shiploc[(l3/5)-1][(l3-1)%5]= true;
-  shiploc[0][0] = true;
+    //uncomment
+ shiploc[0][0] = true;
+ shiploc[2][3] = true;
+ shiploc[4][4] = true;
+ shiploc[4][3] = true;
+ shiploc[2][3] = true;
   }
   public boolean[][] getShipLoc(){
       return shiploc;
   }
+  
+  //public boolean getShipBoo (int x, int y){
+  //  return shiploc[x][y];
+  //}
    
    
 //public void isHit(){
@@ -139,13 +151,13 @@ public class ShipLocations{
 //  changeColor();
 //  }
 }
- public void changeColor(){
+ //public void changeColor(){
  
-   fill(216, 41, 41);
-   //rect(((mouseX-120)/120),((mouseY-50)/120), 120, 120);
-   rect(120,50,120,120);
+ //  fill(216, 41, 41);
+ //  //rect(((mouseX-120)/120),((mouseY-50)/120), 120, 120);
+ //  rect(120,50,120,120);
  
- }
+ //}
 
 
   
