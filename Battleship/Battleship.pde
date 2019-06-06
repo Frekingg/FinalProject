@@ -20,12 +20,40 @@ void draw(){
   background(30, 68, 120);
   grid.gridDisplay();
   if(mousePressed == true){
-    if(mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
-    System.out.println("Hit");
-    else if(mouseX>240 && mouseX<360 && mouseY>50&&mouseY<170)
-      System.out.println("Miss");
-   
     
+    //Tugboat
+    
+    if(mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170)
+    System.out.println("A1 is a Hit");
+    noLoop();
+    
+    //Submarine
+    
+    
+    if(mouseX>120 && mouseX<240 && mouseY>170&&mouseY<290 )
+    System.out.println("A2 is a Hit");
+     noLoop();
+    if(mouseX>240 && mouseX<360 && mouseY>170&&mouseY<290  )
+    System.out.println("B2 is a Hit");
+     noLoop();
+  }
+    
+    
+    //Cruiser
+
+      else if(mouseX>360 && mouseX<480 && mouseY>410&&mouseY<530 )
+        System.out.println("C4 is a Hit");
+         noLoop();
+ 
+        
+        //Battleship
+        
+        else if(mouseX>600 && mouseX<720 && mouseY>410&&mouseY<530 )
+      System.out.println("E4 is a Hit");
+       noLoop();
+          else if(mouseX>600 && mouseX<720 && mouseY>530&&mouseY<750  )
+             System.out.println("E5 is a Hit");
+              noLoop();
   }
   //battleship.shipsDisplay();
   
@@ -48,15 +76,37 @@ void draw(){
      //int x = 0;
      //int y = 0;
      if(mousePressed==true){
-       
+       //tugboat
        if (mouseX>120 && mouseX<240 && mouseY>50&&mouseY<170){
+            if(shiploc[0][0]==true)
+             System.out.println("Hit");
+       //Submarine
+       if (mouseX>120 && mouseX<240 && mouseY>170&&mouseY<290 ){
+            if(shiploc[1][0]==true)
+             System.out.println("Hit");
+       }
+         if (mouseX>240 && mouseX<360 && mouseY>170&&mouseY<290 ){
+            if(shiploc[1][1]==true)
+             System.out.println("Hit");
+       }
+       //Cruiser
+       if (mouseX>600 && mouseX<720 && mouseY>410&&mouseY<530 ){
+            if(shiploc[2][3]==true)
+             System.out.println("Hit") ;
+       }
+       
+       //Battleship
+        
+            
+       if (mouseX>600 && mouseX<720 && mouseY>410&&mouseY<530 ){
             if(shiploc[4][3]==true)
              //if(loc.getShipBoo(x,y))
              System.out.println("Hit");
-       if (mouseX>480 && mouseX<600 && mouseY>530&&mouseY<650){
-            if(shiploc[4][3]==true)
+      if (mouseX>600 && mouseX<720 && mouseY>530&&mouseY<750 ){
+            if(shiploc[4][4]==true)
              //if(loc.getShipBoo(x,y))
              System.out.println("Hit");
+       }
              //if(getShipLoc())
          //fill(216, 41, 41);
          // rect(120,50,120,120);
@@ -177,6 +227,6 @@ void draw(){
  // changeColor();
  // }
  //    } 
-   }
-}
+         }
+      }
  }

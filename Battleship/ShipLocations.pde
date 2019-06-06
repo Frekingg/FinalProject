@@ -30,11 +30,25 @@ public class ShipLocations{
     //shiploc[(l2/5)-1][(l2-1)%5]= true;
     //shiploc[(l3/5)-1][(l3-1)%5]= true;
     //uncomment
+    
+    
+    //Tugboat
  shiploc[0][0] = true;
+    //Submarine
+ shiploc[1][0] = true;
+ shiploc[1][1] = true;
+    //Cruiser
+ shiploc[1][3] = true;
  shiploc[2][3] = true;
+ shiploc[3][3] = true;
+   //Battleship
  shiploc[4][4] = true;
  shiploc[4][3] = true;
- shiploc[2][3] = true;
+ shiploc[4][2] = true;
+ shiploc[4][1] = true;
+
+   
+
   }
   public boolean[][] getShipLoc(){
       return shiploc;
