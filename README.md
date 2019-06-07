@@ -9,27 +9,26 @@ The toughest part of our project was definitely trying to figure out how to rand
 
 ### Most interesting piece of your code and explanation for what it does.
 
-```Java
-void keyPressed() {
-if (keyCode == LEFT) {
-   tree= tree.getLeft();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (keyCode == RIGHT) {
-   tree = tree.getRight();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (tree.getLeft()==null&&tree.getRight()==null) {
-   System.out.println(tree.getValue());
-   tree=t.returnTree();
-}
-}
-```
-This is the code that moves down the tree as decisions are made. It gets each value from both left and right and also casts the value to a String. If the progressions arrives at the leaf nodes, those values are printed.
+for(int i = 0;i<5;i++){
+    for(int j = 0; j<5;j++){
+      switch(guess[i][j]){
+        case 0: //empty
+        fill(0);
+        break;
+        case 1: // miss
+        fill(255);
+        break;
+        case 2: //hit
+        fill(255,0,0);
+        break;
+        
+      }
+      
+      ellipse(180+ 120*i, 110 +120*j, 15, 15);
+      
+    
+    }
+This is the code that will correctly change the color of an ellipse to match whether or not the user guessed correctly. Because we did it this way, it was a lot easier to use booleans to complete the game.
 ## Built With
 
 * [Processing](https://processing.org/) - The IDE used
@@ -41,7 +40,7 @@ This is the code that moves down the tree as decisions are made. It gets each va
 
 ## Acknowledgments
 
-* Thank you to Mr. Fendrich for helping us problem solve and to Sydney Essler for help with coding ideas.
+* Thank you to Mr. Fendrich and Alex Moran for helping us problem solve.
 
 
 
