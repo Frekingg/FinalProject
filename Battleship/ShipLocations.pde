@@ -34,18 +34,29 @@ public class ShipLocations{
     
     //Tugboat
  shiploc[0][0] = true;
+ shiploc[0][1] = false;
+ shiploc[0][2] = false;
+ shiploc[0][3] = false;
+ shiploc[0][4] = false;
     //Submarine
  shiploc[1][0] = true;
  shiploc[1][1] = true;
+ shiploc[1][2] = false;
+ shiploc[1][3] = false;
+ shiploc[1][4] = false;
     //Cruiser
- shiploc[1][3] = true;
- shiploc[2][3] = true;
+ shiploc[3][0] = false;
+ shiploc[3][1] = true;
+ shiploc[3][2] = true;
  shiploc[3][3] = true;
+ shiploc[3][4] = false;
    //Battleship
  shiploc[4][4] = true;
  shiploc[4][3] = true;
  shiploc[4][2] = true;
  shiploc[4][1] = true;
+ shiploc[4][0] = false;
+ 
 
    
 

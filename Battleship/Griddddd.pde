@@ -23,13 +23,38 @@ public class Grid{
     stroke(0);
     strokeWeight(5);
     rect( 120, 50, 600, 600);
-     fill(255);
+     fill(0);
      stroke(1);
      for (int i=180; i<750; i+=120)
      for (int j=110; j<650; j+=120){
        ellipse(i, j, 15, 15);
-      
      }
+    fill(0);
+    textSize(15);
+    text("Directions: Attempt to", 865, 200);
+    text("sink all battleships by",865,230);
+    text("clicking on various", 865,260) ;
+    text("squares and checking",865, 290);
+    text("what is being printed", 865, 320);
+    text("to see if it is a hit", 865, 350);
+    text("or a miss. The circle" , 865, 380);
+    text("will turn red when hit" , 865, 410);
+    text("and prints when missed." , 865, 440);
+ 
+    text("Ships are:", 865, 490);
+    text("1 tugboat(1)", 865,520);
+    text("1 submarine(2)", 865, 550);
+    text("1 cruiser(3)",865, 580);
+    text("1 battleship(4)", 865, 610);
+    text("User is a winner if all",865, 640);
+    text("ships are sunk.", 865, 670);
+    
+    //noFill();
+    //stroke(0);
+    //strokeWeight(5);
+     
+      
+     
   }
   
    public void lineDisplay(){
