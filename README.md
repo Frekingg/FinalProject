@@ -9,6 +9,7 @@ The toughest part of our project was definitely trying to figure out how to rand
 
 ### Most interesting piece of your code and explanation for what it does.
 
+```Java
 for(int i = 0;i<5;i++){
     for(int j = 0; j<5;j++){
       switch(guess[i][j]){
@@ -25,9 +26,10 @@ for(int i = 0;i<5;i++){
       }
       
       ellipse(180+ 120*i, 110 +120*j, 15, 15);
-      
-    
+     
     }
+```    
+   
 This is the code that will correctly change the color of an ellipse to match whether or not the user guessed correctly. Because we did it this way, it was a lot easier to use booleans to complete the game.
 ## Built With
 
